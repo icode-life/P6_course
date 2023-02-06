@@ -1,4 +1,5 @@
 const Thing = require('../models/Thing');
+const fs = require('fs');
 
 exports.createThing = (req, res, next) => {
   const thing = new Thing({
